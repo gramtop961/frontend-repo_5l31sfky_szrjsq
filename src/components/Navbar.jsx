@@ -1,11 +1,12 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
+import Logo from './Logo';
 
 const navItems = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
   { label: 'Product', href: '#product' },
-  { label: 'Achievements', href: '#achievements' },
+  { label: 'Media', href: '#media' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -26,7 +27,7 @@ export default function Navbar() {
         <div className="mt-4 rounded-xl border border-white/20 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/70 shadow-sm">
           <nav className="flex items-center justify-between px-4 py-3">
             <a href="#home" className="flex items-center gap-3">
-              <div className="h-9 w-9 rounded-lg bg-gradient-to-br from-teal-500 to-blue-600 flex items-center justify-center text-white font-bold">V</div>
+              <Logo />
               <div className="leading-tight">
                 <p className="text-zinc-900 font-semibold -mb-0.5">VitalEdge</p>
                 <p className="text-xs text-zinc-500">Medical IoT</p>

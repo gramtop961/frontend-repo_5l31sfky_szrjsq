@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import { Intro, Product, Achievements, About } from './components/Sections';
+import AchievementsPage from './components/AchievementsPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Intro />
         <Product />
         <Achievements />
+        <AchievementsPage />
         <About />
         <Contact />
       </main>
